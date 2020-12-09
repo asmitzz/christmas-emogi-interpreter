@@ -11,8 +11,8 @@ body{
 }
 
 .database {
-  width: 80%;
-  margin:auto
+  width: 90%;
+  margin:auto;
 }
 
 
@@ -37,6 +37,7 @@ width: 60%;
 margin: auto;
 padding: 2rem 0.5rem;
 border-radius: 20px;
+margin-bottom: 10px;
 }
 
 input{

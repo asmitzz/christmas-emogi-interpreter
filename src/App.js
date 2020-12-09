@@ -74,10 +74,16 @@ export default function App() {
       <h2 className="database">
         {
            emogiWeKnow.map((emogi) => {
-             return <span 
+             return <p 
              style={{
-              padding:"1rem",
-              cursor:"pointer" 
+              cursor:"pointer",
+              display:"inline-block",
+              border: "1px solid green",
+              background:"green",
+              padding:"3px",
+             borderRadius: "100%",
+             boxShadow:"2px 2px 2px 2px lightgreen",
+             margin:"0.5rem 1rem"
              }}
 
              key={emogi}
@@ -85,7 +91,7 @@ export default function App() {
              onClick={() => emogiHandler(emogi)}
              >
              {emogi}
-             </span>
+             </p>
            })
         }
       </h2>
